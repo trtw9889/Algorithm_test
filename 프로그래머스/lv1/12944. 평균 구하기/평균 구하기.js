@@ -1,4 +1,4 @@
 function solution(arr) {
-    const result =  arr.reduce((acc,cur) => acc+cur)
-    return result / arr.length
+    return arr.reduce((acc,cur) => acc+cur) / arr.length
+
 }
